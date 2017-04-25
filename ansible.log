@@ -1,0 +1,710 @@
+2017-04-25 01:30:18,334 p=4167 u=root |  ERROR! 'dest' is not a valid attribute for a Play
+
+The error appears to have been in '/etc/ansible/task.yml': line 9, column 4, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+ - name: sample motd
+   ^ here
+
+2017-04-25 01:34:54,502 p=4196 u=root |  ERROR! 'task' is not a valid attribute for a Play
+
+The error appears to have been in '/etc/ansible/task.yml': line 4, column 4, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+# motd message
+ - hosts: localhost
+   ^ here
+
+2017-04-25 01:35:40,921 p=4204 u=root |  ERROR! 'task' is not a valid attribute for a Play
+
+The error appears to have been in '/etc/ansible/task.yml': line 4, column 4, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+# motd message
+ - hosts: 127.0.0.1
+   ^ here
+
+2017-04-25 01:36:46,853 p=4230 u=root |  ERROR! 'task' is not a valid attribute for a Play
+
+The error appears to have been in '/etc/ansible/task.yml': line 4, column 4, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+# motd message
+ - hosts: 127.0.0.1
+   ^ here
+
+2017-04-25 01:37:25,863 p=4237 u=root |  ERROR! 'task' is not a valid attribute for a Play
+
+The error appears to have been in '/etc/ansible/task.yml': line 4, column 4, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+# motd message
+ - hosts: 127.0.0.1
+   ^ here
+
+2017-04-25 01:38:01,556 p=4246 u=root |  ERROR! 'task' is not a valid attribute for a Play
+
+The error appears to have been in '/etc/ansible/task.yml': line 3, column 4, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+ - hosts: localhost
+   ^ here
+
+2017-04-25 01:40:19,122 p=4265 u=root |  ERROR! 'task' is not a valid attribute for a Play
+
+The error appears to have been in '/etc/ansible/task.yml': line 2, column 4, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+ - hosts: localhost
+   ^ here
+
+2017-04-25 01:42:10,128 p=4274 u=root |  ERROR! 'task' is not a valid attribute for a Play
+
+The error appears to have been in '/etc/ansible/update.yml': line 2, column 4, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+ - hosts: localhost
+   ^ here
+
+2017-04-25 01:44:38,890 p=4288 u=root |  127.0.0.1 | SUCCESS | rc=0 >>
+Loaded plugins: product-id, refresh-packagekit, search-disabled-repos, security,
+              : subscription-manager
+Setting up Update Process
+No Packages marked for UpdateNot using downloaded repomd.xml because it is older than what we have:
+  Current   : Thu Sep 29 03:19:22 2016
+  Downloaded: Sun May 22 21:53:37 2016
+
+2017-04-25 01:44:39,186 p=4288 u=root |   [ERROR]: User interrupted execution
+
+2017-04-25 01:44:47,664 p=4384 u=root |   [WARNING]: No hosts matched, nothing to do
+
+2017-04-25 01:45:08,710 p=4395 u=root |  localhost | SUCCESS | rc=0 >>
+Loaded plugins: product-id, refresh-packagekit, search-disabled-repos, security,
+              : subscription-manager
+Setting up Update Process
+No Packages marked for Update
+
+2017-04-25 01:46:00,064 p=4445 u=root |  localhost | SUCCESS | rc=0 >>
+Loaded plugins: product-id, refresh-packagekit, search-disabled-repos, security,
+              : subscription-manager
+=============================== N/S Matched: mc ================================
+apache-tomcat-apis.noarch : Tomcat Servlet and JSP APIs
+compat-libtermcap.i686 : A basic system library for accessing the termcap
+                       : database
+compat-libtermcap.x86_64 : A basic system library for accessing the termcap
+                         : database
+devtoolset-2-tomcat-servlet-3.0-api.noarch : Apache Tomcat Servlet API
+                                           : implementation classes
+dmlite-plugins-memcache.x86_64 : Memcached plugin for dmlite
+emacs-systemc-mode.x86_64 : Elisp source files for systemc-mode under GNU Emacs
+freeipmi-bmc-watchdog.x86_64 : IPMI BMC watchdog
+jakarta-commons-dbcp-tomcat5.noarch : DBCP dependency for Tomcat5
+jakarta-commons-pool-tomcat5.x86_64 : Pool dependency for Tomcat5
+jglobus-ssl-proxies-tomcat.noarch : Globus Java - SSL and proxy certificate
+                                  : support for Tomcat
+kmod-mmc_block_dup.x86_64 : mmc_block_dup kernel module(s)
+kmod-mmc_core_dup.x86_64 : mmc_core_dup kernel module(s)
+kmod-rtsx_pci_sdmmc.x86_64 : rtsx_pci_sdmmc kernel module(s)
+kmod-rtsx_usb_sdmmc.x86_64 : rtsx_usb_sdmmc kernel module(s)
+kmod-vmware-tools-vmci.x86_64 : The vmci kernel module built for the
+                              : 2.6.32-71.el6.x86_64 kernel.
+kmod-vmware-tools-vmmemctl.x86_64 : The vmmemctl kernel module built for the
+                                  : 2.6.32-71.el6.x86_64 kernel.
+libXdmcp.i686 : X.Org X11 libXdmcp runtime library
+libXdmcp.x86_64 : X.Org X11 libXdmcp runtime library
+libXdmcp-devel.i686 : X.Org X11 libXdmcp development package
+libXdmcp-devel.x86_64 : X.Org X11 libXdmcp development package
+libXvMC.i686 : X.Org X11 libXvMC runtime library
+libXvMC.x86_64 : X.Org X11 libXvMC runtime library
+libmcrypt-devel.i686 : Development libraries and headers for libmcrypt
+libmcrypt-devel.x86_64 : Development libraries and headers for libmcrypt
+libmemcached.i686 : Client library and command line tools for memcached server
+libmemcached.x86_64 : Client library and command line tools for memcached server
+libtomcrypt-devel.i686 : Development files for libtomcrypt
+libtomcrypt-devel.x86_64 : Development files for libtomcrypt
+libtomcrypt-doc.noarch : Documentation files for libtomcrypt
+mcollective-client.noarch : Client tools for the mcollective application server
+mcollective-common.noarch : Common libraries for the mcollective clients and
+                          : servers
+pcmciautils.x86_64 : PCMCIA utilities and initialization programs
+perl-Cache-Memcached.noarch : Perl client for memcached
+php-ZendFramework-Cache-Backend-Libmemcached.noarch : Zend Framework libmemcache
+                                                    : cache backend
+php-ZendFramework-Cache-Backend-Memcached.noarch : Zend Framework memcache cache
+                                                 : backend
+php-hamcrest.noarch : PHP port of Hamcrest Matchers
+php-horde-Horde-Memcache.noarch : Horde Memcache API
+php-mcrypt.x86_64 : Standard PHP module provides mcrypt library support
+php-pecl-memcache.x86_64 : Extension to work with the Memcached caching daemon
+php-pecl-memcached.x86_64 : Extension to work with the Memcached caching daemon
+python-django-tinymce.noarch : A Django application that contains a widget to
+                             : render a form field as a TinyMCE editor.
+python-mccabe.noarch : McCabe complexity checker
+python-memcached.noarch : A Python memcached client library
+python2-usbtmc.noarch : Python implementation of the USBTMC protocol
+remctl-devel.i686 : Development files needed to compile C programs against
+                  : remctl
+remctl-devel.x86_64 : Development files needed to compile C programs against
+                    : remctl
+remctl-perl.x86_64 : Perl interface to remctl
+remctl-php.x86_64 : PHP interface to remctl
+remctl-python.x86_64 : Python interface to remctl
+remctl-ruby.x86_64 : Ruby interface to remctl
+simcrs-devel.i686 : Header files, libraries and development helper tools for
+                  : simcrs
+simcrs-devel.x86_64 : Header files, libraries and development helper tools for
+                    : simcrs
+simcrs-doc.noarch : HTML documentation for the simcrs library
+smc-fonts-common.noarch : Common files for smc-fonts
+strongswan-tnc-imcvs.x86_64 : Trusted network connect (TNC)'s IMC/IMV
+                            : functionality
+tomcat-admin-webapps.noarch : The host-manager and manager web applications for
+                            : Apache Tomcat
+tomcat-docs-webapp.noarch : The docs web application for Apache Tomcat
+tomcat-javadoc.noarch : Javadoc generated documentation for Apache Tomcat
+tomcat-jsp-2.2-api.noarch : Apache Tomcat JSP API implementation classes
+tomcat-jsvc.noarch : Apache jsvc wrapper for Apache Tomcat as separate service
+tomcat-lib.noarch : Libraries needed to run the Tomcat Web container
+tomcat-native.x86_64 : Tomcat native library
+tomcat-servlet-3.0-api.noarch : Apache Tomcat Servlet API implementation classes
+tomcat-webapps.noarch : The ROOT and examples web applications for Apache Tomcat
+tomcat6-admin-webapps.x86_64 : The host-manager and manager web applications for
+                             : Apache Tomcat
+tomcat6-admin-webapps.noarch : The host-manager and manager web applications for
+                             : Apache Tomcat
+tomcat6-docs-webapp.x86_64 : The docs web application for Apache Tomcat
+tomcat6-docs-webapp.noarch : The docs web application for Apache Tomcat
+tomcat6-javadoc.x86_64 : Javadoc generated documentation for Apache Tomcat
+tomcat6-javadoc.noarch : Javadoc generated documentation for Apache Tomcat
+tomcat6-jsp-2.1-api.noarch : Apache Tomcat JSP API implementation classes
+tomcat6-jsp-2.1-api.x86_64 : Apache Tomcat JSP API implementation classes
+tomcat6-lib.noarch : Libraries needed to run the Tomcat Web container
+tomcat6-lib.x86_64 : Libraries needed to run the Tomcat Web container
+tomcat6-servlet-2.5-api.noarch : Apache Tomcat Servlet API implementation
+                               : classes
+tomcat6-servlet-2.5-api.x86_64 : Apache Tomcat Servlet API implementation
+                               : classes
+tomcat6-webapps.x86_64 : The ROOT and examples web applications for Apache
+                       : Tomcat
+tomcat6-webapps.noarch : The ROOT and examples web applications for Apache
+                       : Tomcat
+tomcatjss.noarch : JSSE implementation using JSS for Tomcat
+uwsgi-router-memcached.x86_64 : uWSGI - Plugin for Memcached router support
+vmware-tools-vmci-common.x86_64 : Contains the common files used by all the vmci
+                                : kernel module packages (kmps).
+vmware-tools-vmmemctl-common.x86_64 : Contains the common files used by all the
+                                    : vmmemctl kernel module packages (kmps).
+HepMC.i686 : C++ Event Record for Monte Carlo Generators
+HepMC.x86_64 : C++ Event Record for Monte Carlo Generators
+HepMC-devel.i686 : C++ Event Record for Monte Carlo Generators - development
+                 : files
+HepMC-devel.x86_64 : C++ Event Record for Monte Carlo Generators - development
+                   : files
+HepMC-doc.noarch : C++ Event Record for Monte Carlo Generators - documentation
+devtoolset-2-tomcat-el-2.2-api.noarch : Expression Language v1.0 API
+emacs-vregs-mode.noarch : Elisp source files for systemc-vregs under GNU Emacs
+fence-virtd-serial.x86_64 : Serial VMChannel listener for fence-virtd
+glite-security-trustmanager-tomcat6.noarch : Java trustmanager interface
+                                           : supporting a GSI grid name space
+golang-github-golang-groupcache-devel.noarch : Caching and cache-filling library
+     ...: as a replacement for memcached in many cases
+hamcrest.x86_64 : Library of matchers for building test expressions
+libNX_Xdmcp.i686 : NX Display Manager Control Protocol library
+libNX_Xdmcp.x86_64 : NX Display Manager Control Protocol library
+libNX_Xdmcp-devel.i686 : Development files for the NXDM Control Protocol library
+libNX_Xdmcp-devel.x86_64 : Development files for the NXDM Control Protocol
+                         : library
+libmcpp.x86_64 : Alternative C/C++ preprocessor (library build)
+libmcrypt.i686 : Encryption algorithms library
+libmcrypt.x86_64 : Encryption algorithms library
+libtomcrypt.i686 : A comprehensive, portable cryptographic toolkit
+libtomcrypt.x86_64 : A comprehensive, portable cryptographic toolkit
+mc.x86_64 : User-friendly text console file manager and visual shell
+mcelog.x86_64 : Tool to translate x86-64 CPU Machine Check Exception data.
+mcollective.noarch : A framework to build server orchestration or parallel job
+                   : execution systems
+mcpp.x86_64 : Alternative C/C++ preprocessor
+mcrypt.x86_64 : Replacement for crypt()
+mcstrans.x86_64 : SELinux Translation Daemon
+memcached.x86_64 : High Performance, Distributed Memory Object Cache
+nodejs-npmconf.noarch : npm configuration module
+perl-Class-DBI-FromCGI.noarch : Update Class::DBI data using CGI::Untaint
+perl-MCE.noarch : Many-core Engine for Perl providing parallel processing
+                : capabilities
+perl-MCE-tools.noarch : Many-core Engine command line tools
+perl-SystemC-Vregs.noarch : Utility routines used by vregs
+php-iamcal-lib-autolink.noarch : Adds anchors to urls in a text
+php-symfony-dom-crawler.noarch : Symfony DomCrawler Component
+remctl.i686 : Client/server for Kerberos-authenticated command execution
+remctl.x86_64 : Client/server for Kerberos-authenticated command execution
+root-montecarlo-vmc.x86_64 : Virtual Monte-Carlo (simulation) library for ROOT
+rpmconf.noarch : Tool to handle rpmnew and rpmsave files
+sblim-wbemcli.x86_64 : SBLIM WBEM Command Line Interface
+simcrs.i686 : C++ Simulated Travel-Oriented Distribution System library
+simcrs.x86_64 : C++ Simulated Travel-Oriented Distribution System library
+sispmctl.x86_64 : Control Gembird SIS-PM programmable power outlet strips
+smc-anjalioldlipi-fonts.noarch : Open Type Fonts for Malayalam script
+smc-dyuthi-fonts.noarch : Open Type Fonts for Malayalam script
+smc-kalyani-fonts.noarch : Open Type Fonts for Malayalam script
+smc-meera-fonts.noarch : Open Type Fonts for Malayalam script
+smc-rachana-fonts.noarch : Open Type Fonts for Malayalam script
+smc-raghumalayalam-fonts.noarch : Open Type Fonts for Malayalam script
+smc-suruma-fonts.noarch : Open Type Fonts for Malayalam script
+tinymce.noarch : Web based Javascript HTML WYSIWYG editor control
+tomcat.noarch : Apache Servlet/JSP Engine, RI for Servlet 3.0/JSP 2.2 API
+tomcat-el-2.2-api.noarch : Expression Language v1.0 API
+tomcat6.noarch : Apache Servlet/JSP Engine, RI for Servlet 2.5/JSP 2.1 API
+tomcat6.x86_64 : Apache Servlet/JSP Engine, RI for Servlet 2.5/JSP 2.1 API
+tomcat6-el-2.1-api.noarch : Expression Language v1.0 API
+tomcat6-el-2.1-api.x86_64 : Expression Language v1.0 API
+wacomcpl.x86_64 : Wacom driver configuration tool
+wmctrl.x86_64 : Command line tool to interact with an X Window Manager
+
+  Name and summary matches only, use "search all" for everything.
+
+2017-04-25 01:47:02,638 p=4495 u=root |  localhost | SUCCESS | rc=0 >>
+Loaded plugins: product-id, refresh-packagekit, search-disabled-repos, security,
+              : subscription-manager
+============================== N/S Matched: squid ==============================
+lightsquid.noarch : Light, small, and fast log analyzer for squid proxy
+lightsquid-apache.noarch : Web Controls for lightsquid
+squid.x86_64 : The Squid proxy caching server
+squid34.x86_64 : The Squid proxy caching server
+squidGuard.x86_64 : Filter, redirector and access controller plugin for squid
+calamaris.noarch : Squid native log format (NLF) analyzer and report generator
+
+  Name and summary matches only, use "search all" for everything.
+
+2017-04-25 01:51:59,820 p=4570 u=root |  ERROR! 'task' is not a valid attribute for a Play
+
+The error appears to have been in '/etc/ansible/update.yml': line 2, column 4, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+ - hosts: localhost
+   ^ here
+
+2017-04-25 01:56:10,237 p=4577 u=root |  ERROR! 'task' is not a valid attribute for a Play
+
+The error appears to have been in '/etc/ansible/update.yml': line 2, column 4, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+ - hosts: Local
+   ^ here
+
+2017-04-25 02:13:03,235 p=4635 u=root |   [WARNING]: While constructing a mapping from /etc/ansible/createuser.yml, line 6, column 6, found a duplicate
+dict key (name). Using last defined value only.
+
+2017-04-25 02:13:03,239 p=4635 u=root |  ERROR! 'task' is not a valid attribute for a Play
+
+The error appears to have been in '/etc/ansible/createuser.yml': line 2, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+- name: Add a user
+  ^ here
+
+2017-04-25 03:31:13,982 p=5143 u=root |  ERROR! You must specify a playbook file to run
+2017-04-25 03:31:18,797 p=5148 u=root |  ERROR! 'task' is not a valid attribute for a Play
+
+The error appears to have been in '/etc/ansible/update.yml': line 2, column 4, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+ - hosts: Local
+   ^ here
+
+2017-04-25 03:31:25,274 p=5154 u=root |   [WARNING]: While constructing a mapping from /etc/ansible/createuser.yml, line 6, column 6, found a duplicate
+dict key (name). Using last defined value only.
+
+2017-04-25 03:31:25,277 p=5154 u=root |  ERROR! 'task' is not a valid attribute for a Play
+
+The error appears to have been in '/etc/ansible/createuser.yml': line 2, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+- name: Add a user
+  ^ here
+
+2017-04-25 03:32:40,048 p=5161 u=root |  ERROR! 'task' is not a valid attribute for a Play
+
+The error appears to have been in '/etc/ansible/update.yml': line 2, column 4, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+ - hosts: Local
+   ^ here
+
+2017-04-25 03:34:30,441 p=5167 u=root |  ERROR! the playbook: debug could not be found
+2017-04-25 03:35:29,496 p=5173 u=root |  ERROR! 'task' is not a valid attribute for a Play
+
+The error appears to have been in '/etc/ansible/update.yml': line 2, column 4, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+ - hosts: Local
+   ^ here
+
+2017-04-25 03:36:14,195 p=5180 u=root |  ERROR! 'startegy' is not a valid attribute for a Play
+
+The error appears to have been in '/etc/ansible/update.yml': line 2, column 4, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+ - hosts: Local
+   ^ here
+
+2017-04-25 03:36:51,607 p=5187 u=root |  ERROR! no action detected in task. This often indicates a misspelled module name, or incorrect module path.
+
+The error appears to have been in '/etc/ansible/update.yml': line 5, column 8, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+   tasks:
+     - name: system_update
+       ^ here
+
+
+The error appears to have been in '/etc/ansible/update.yml': line 5, column 8, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+   tasks:
+     - name: system_update
+       ^ here
+
+2017-04-25 03:38:18,997 p=5194 u=root |  ERROR! 'execute' is not a valid attribute for a Task
+
+The error appears to have been in '/etc/ansible/update.yml': line 5, column 8, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+   tasks:
+     - name: system_update
+       ^ here
+
+2017-04-25 03:40:35,857 p=5206 u=root |   [WARNING]: While constructing a mapping from /etc/ansible/createuser.yml, line 6, column 6, found a duplicate
+dict key (name). Using last defined value only.
+
+2017-04-25 03:40:35,860 p=5206 u=root |  ERROR! 'task' is not a valid attribute for a Play
+
+The error appears to have been in '/etc/ansible/createuser.yml': line 2, column 4, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+ - hosts: All
+   ^ here
+
+2017-04-25 03:41:28,352 p=5213 u=root |   [WARNING]: While constructing a mapping from /etc/ansible/createuser.yml, line 6, column 6, found a duplicate
+dict key (name). Using last defined value only.
+
+2017-04-25 03:41:28,354 p=5213 u=root |  ERROR! 'task' is not a valid attribute for a Play
+
+The error appears to have been in '/etc/ansible/createuser.yml': line 2, column 4, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+ - hosts: Local
+   ^ here
+
+2017-04-25 03:42:26,446 p=5242 u=root |   [WARNING]: While constructing a mapping from /etc/ansible/createuser.yml, line 5, column 6, found a duplicate
+dict key (name). Using last defined value only.
+
+2017-04-25 03:42:26,450 p=5242 u=root |  ERROR! 'task' is not a valid attribute for a Play
+
+The error appears to have been in '/etc/ansible/createuser.yml': line 2, column 4, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+ - hosts: Local
+   ^ here
+
+2017-04-25 03:46:45,727 p=5250 u=root |  ERROR! Syntax Error while loading YAML.
+
+
+The error appears to have been in '/etc/ansible/motd.yml': line 6, column 4, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+    motd_welkom: 'For customer uses only'
+   - name: sample motd
+   ^ here
+
+2017-04-25 03:47:37,216 p=5258 u=root |  ERROR! Syntax Error while loading YAML.
+
+
+The error appears to have been in '/etc/ansible/motd.yml': line 6, column 5, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+    motd_welkom: 'For customer uses only'
+    - name: sample motd
+    ^ here
+
+2017-04-25 03:49:23,824 p=5265 u=root |  PLAY [Local] *******************************************************************
+2017-04-25 03:49:23,988 p=5265 u=root |  TASK [setup] *******************************************************************
+2017-04-25 03:49:28,515 p=5265 u=root |  ok: [localhost]
+2017-04-25 03:49:28,531 p=5265 u=root |  ok: [127.0.0.1]
+2017-04-25 03:49:28,545 p=5265 u=root |  TASK [sample motd] *************************************************************
+2017-04-25 03:49:31,008 p=5265 u=root |  changed: [localhost]
+2017-04-25 03:49:31,022 p=5265 u=root |  changed: [127.0.0.1]
+2017-04-25 03:49:31,029 p=5265 u=root |  PLAY RECAP *********************************************************************
+2017-04-25 03:49:31,030 p=5265 u=root |  127.0.0.1                  : ok=2    changed=1    unreachable=0    failed=0   
+2017-04-25 03:49:31,030 p=5265 u=root |  localhost                  : ok=2    changed=1    unreachable=0    failed=0   
+2017-04-25 03:51:53,177 p=5577 u=root |  PLAY [SAP] *********************************************************************
+2017-04-25 03:51:53,299 p=5577 u=root |  TASK [setup] *******************************************************************
+2017-04-25 03:52:01,718 p=5577 u=root |  ok: [SAP]
+2017-04-25 03:52:01,725 p=5577 u=root |  TASK [sample motd] *************************************************************
+2017-04-25 03:52:04,184 p=5577 u=root |  changed: [SAP]
+2017-04-25 03:52:04,190 p=5577 u=root |  PLAY RECAP *********************************************************************
+2017-04-25 03:52:04,191 p=5577 u=root |  SAP                        : ok=2    changed=1    unreachable=0    failed=0   
+2017-04-25 03:58:53,511 p=5703 u=root |  PLAY [Local] *******************************************************************
+2017-04-25 03:58:53,628 p=5703 u=root |  TASK [setup] *******************************************************************
+2017-04-25 03:58:57,481 p=5703 u=root |  ok: [127.0.0.1]
+2017-04-25 03:58:57,496 p=5703 u=root |  ok: [localhost]
+2017-04-25 03:58:57,503 p=5703 u=root |  TASK [apache] ******************************************************************
+2017-04-25 03:58:59,196 p=5703 u=root |  fatal: [127.0.0.1]: FAILED! => {"changed": false, "failed": true, "msg": "value of state must be one of: absent,present,installed,removed,latest, got: latests"}
+2017-04-25 03:58:59,201 p=5703 u=root |  fatal: [localhost]: FAILED! => {"changed": false, "failed": true, "msg": "value of state must be one of: absent,present,installed,removed,latest, got: latests"}
+2017-04-25 03:58:59,206 p=5703 u=root |  	to retry, use: --limit @/etc/ansible/httpd.retry
+
+2017-04-25 03:58:59,207 p=5703 u=root |  PLAY RECAP *********************************************************************
+2017-04-25 03:58:59,207 p=5703 u=root |  127.0.0.1                  : ok=1    changed=0    unreachable=0    failed=1   
+2017-04-25 03:58:59,208 p=5703 u=root |  localhost                  : ok=1    changed=0    unreachable=0    failed=1   
+2017-04-25 03:59:37,092 p=5930 u=root |  PLAY [Local] *******************************************************************
+2017-04-25 03:59:37,207 p=5930 u=root |  TASK [setup] *******************************************************************
+2017-04-25 03:59:39,639 p=5930 u=root |  ok: [127.0.0.1]
+2017-04-25 03:59:39,663 p=5930 u=root |  ok: [localhost]
+2017-04-25 03:59:39,672 p=5930 u=root |  TASK [apache] ******************************************************************
+2017-04-25 03:59:42,080 p=5930 u=root |  ok: [localhost]
+2017-04-25 03:59:42,086 p=5930 u=root |  ok: [127.0.0.1]
+2017-04-25 03:59:42,091 p=5930 u=root |  PLAY RECAP *********************************************************************
+2017-04-25 03:59:42,092 p=5930 u=root |  127.0.0.1                  : ok=2    changed=0    unreachable=0    failed=0   
+2017-04-25 03:59:42,092 p=5930 u=root |  localhost                  : ok=2    changed=0    unreachable=0    failed=0   
+2017-04-25 04:00:25,467 p=6166 u=root |  PLAY [Local] *******************************************************************
+2017-04-25 04:00:25,579 p=6166 u=root |  TASK [setup] *******************************************************************
+2017-04-25 04:00:28,217 p=6166 u=root |  ok: [localhost]
+2017-04-25 04:00:28,236 p=6166 u=root |  ok: [127.0.0.1]
+2017-04-25 04:00:28,243 p=6166 u=root |  TASK [apache] ******************************************************************
+2017-04-25 04:01:11,717 p=6166 u=root |  changed: [localhost]
+2017-04-25 04:01:16,578 p=6166 u=root |  ok: [127.0.0.1]
+2017-04-25 04:01:16,584 p=6166 u=root |  PLAY RECAP *********************************************************************
+2017-04-25 04:01:16,585 p=6166 u=root |  127.0.0.1                  : ok=2    changed=0    unreachable=0    failed=0   
+2017-04-25 04:01:16,585 p=6166 u=root |  localhost                  : ok=2    changed=1    unreachable=0    failed=0   
+2017-04-25 04:09:52,539 p=6431 u=root |  PLAY [Local] *******************************************************************
+2017-04-25 04:09:52,654 p=6431 u=root |  TASK [setup] *******************************************************************
+2017-04-25 04:09:56,443 p=6431 u=root |  ok: [localhost]
+2017-04-25 04:09:56,462 p=6431 u=root |  ok: [127.0.0.1]
+2017-04-25 04:09:56,471 p=6431 u=root |  TASK [apache] ******************************************************************
+2017-04-25 04:09:58,154 p=6431 u=root |  fatal: [127.0.0.1]: FAILED! => {"changed": false, "failed": true, "msg": "value of state must be one of: absent,present,installed,removed,latest, got: missing"}
+2017-04-25 04:09:58,160 p=6431 u=root |  fatal: [localhost]: FAILED! => {"changed": false, "failed": true, "msg": "value of state must be one of: absent,present,installed,removed,latest, got: missing"}
+2017-04-25 04:09:58,164 p=6431 u=root |  	to retry, use: --limit @/etc/ansible/httpd.retry
+
+2017-04-25 04:09:58,164 p=6431 u=root |  PLAY RECAP *********************************************************************
+2017-04-25 04:09:58,165 p=6431 u=root |  127.0.0.1                  : ok=1    changed=0    unreachable=0    failed=1   
+2017-04-25 04:09:58,165 p=6431 u=root |  localhost                  : ok=1    changed=0    unreachable=0    failed=1   
+2017-04-25 04:10:32,918 p=6663 u=root |  PLAY [Local] *******************************************************************
+2017-04-25 04:10:33,033 p=6663 u=root |  TASK [setup] *******************************************************************
+2017-04-25 04:10:35,627 p=6663 u=root |  ok: [localhost]
+2017-04-25 04:10:35,643 p=6663 u=root |  ok: [127.0.0.1]
+2017-04-25 04:10:35,651 p=6663 u=root |  TASK [apache] ******************************************************************
+2017-04-25 04:10:53,276 p=6663 u=root |  changed: [localhost]
+2017-04-25 04:10:55,478 p=6663 u=root |  changed: [127.0.0.1]
+2017-04-25 04:10:55,484 p=6663 u=root |  PLAY RECAP *********************************************************************
+2017-04-25 04:10:55,485 p=6663 u=root |  127.0.0.1                  : ok=2    changed=1    unreachable=0    failed=0   
+2017-04-25 04:10:55,485 p=6663 u=root |  localhost                  : ok=2    changed=1    unreachable=0    failed=0   
+2017-04-25 04:12:49,820 p=6949 u=root |  PLAY [SAP] *********************************************************************
+2017-04-25 04:12:49,926 p=6949 u=root |  TASK [setup] *******************************************************************
+2017-04-25 04:12:55,513 p=6949 u=root |  ok: [SAP]
+2017-04-25 04:12:55,518 p=6949 u=root |  TASK [apache] ******************************************************************
+2017-04-25 04:12:58,786 p=6949 u=root |  fatal: [SAP]: FAILED! => {"changed": false, "cmd": ["/usr/bin/zypper", "--quiet", "--non-interactive", "--xmlout", "search", "--type", "package", "--match-exact", "--details", "--installed-only", "httpd"], "failed": true, "msg": "Zypper run command failed with return code 1.", "rc": 1, "stderr": "", "stdout": "<?xml version='1.0'?>\n<stream>\n<message type=\"error\">Unexpected exception.\nParse error: repoindex.xml[59] Opening and ending tag mismatch: meta line 4 and head\n</message>\n<message type=\"error\">Please file a bug report about this.\nSee http://en.opensuse.org/Zypper/Troubleshooting for instructions.</message>\n</stream>\n", "stdout_lines": ["<?xml version='1.0'?>", "<stream>", "<message type=\"error\">Unexpected exception.", "Parse error: repoindex.xml[59] Opening and ending tag mismatch: meta line 4 and head", "</message>", "<message type=\"error\">Please file a bug report about this.", "See http://en.opensuse.org/Zypper/Troubleshooting for instructions.</message>", "</stream>"]}
+2017-04-25 04:12:58,798 p=6949 u=root |  	to retry, use: --limit @/etc/ansible/httpd_zypper.retry
+
+2017-04-25 04:12:58,799 p=6949 u=root |  PLAY RECAP *********************************************************************
+2017-04-25 04:12:58,799 p=6949 u=root |  SAP                        : ok=1    changed=0    unreachable=0    failed=1   
+2017-04-25 04:17:19,673 p=6979 u=root |  PLAY [SAP] *********************************************************************
+2017-04-25 04:17:19,773 p=6979 u=root |  TASK [setup] *******************************************************************
+2017-04-25 04:17:24,876 p=6979 u=root |  ok: [SAP]
+2017-04-25 04:17:24,881 p=6979 u=root |  TASK [apache] ******************************************************************
+2017-04-25 04:17:26,616 p=6979 u=root |  fatal: [SAP]: FAILED! => {"changed": false, "cmd": ["/usr/bin/zypper", "--quiet", "--non-interactive", "--xmlout", "search", "--type", "package", "--match-exact", "--details", "--installed-only", "apache2"], "failed": true, "msg": "Zypper run command failed with return code 1.", "rc": 1, "stderr": "", "stdout": "<?xml version='1.0'?>\n<stream>\n<message type=\"error\">Unexpected exception.\nParse error: repoindex.xml[59] Opening and ending tag mismatch: meta line 4 and head\n</message>\n<message type=\"error\">Please file a bug report about this.\nSee http://en.opensuse.org/Zypper/Troubleshooting for instructions.</message>\n</stream>\n", "stdout_lines": ["<?xml version='1.0'?>", "<stream>", "<message type=\"error\">Unexpected exception.", "Parse error: repoindex.xml[59] Opening and ending tag mismatch: meta line 4 and head", "</message>", "<message type=\"error\">Please file a bug report about this.", "See http://en.opensuse.org/Zypper/Troubleshooting for instructions.</message>", "</stream>"]}
+2017-04-25 04:17:26,621 p=6979 u=root |  	to retry, use: --limit @/etc/ansible/httpd_zypper.retry
+
+2017-04-25 04:17:26,621 p=6979 u=root |  PLAY RECAP *********************************************************************
+2017-04-25 04:17:26,622 p=6979 u=root |  SAP                        : ok=1    changed=0    unreachable=0    failed=1   
+2017-04-25 04:20:09,305 p=7015 u=root |  ERROR! no action detected in task. This often indicates a misspelled module name, or incorrect module path.
+
+The error appears to have been in '/etc/ansible/httpd_zypper.yml': line 5, column 8, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+   tasks:
+     - name: apache
+       ^ here
+
+
+The error appears to have been in '/etc/ansible/httpd_zypper.yml': line 5, column 8, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+   tasks:
+     - name: apache
+       ^ here
+
+2017-04-25 04:20:40,631 p=7022 u=root |  ERROR! no action detected in task. This often indicates a misspelled module name, or incorrect module path.
+
+The error appears to have been in '/etc/ansible/httpd_zypper.yml': line 5, column 8, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+   tasks:
+     - name: http
+       ^ here
+
+
+The error appears to have been in '/etc/ansible/httpd_zypper.yml': line 5, column 8, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+   tasks:
+     - name: http
+       ^ here
+
+2017-04-25 04:21:35,405 p=7029 u=root |  PLAY [Local] *******************************************************************
+2017-04-25 04:21:35,519 p=7029 u=root |  TASK [setup] *******************************************************************
+2017-04-25 04:21:39,224 p=7029 u=root |  ok: [127.0.0.1]
+2017-04-25 04:21:39,308 p=7029 u=root |  ok: [localhost]
+2017-04-25 04:21:39,315 p=7029 u=root |  TASK [apache] ******************************************************************
+2017-04-25 04:21:41,114 p=7029 u=root |  fatal: [127.0.0.1]: FAILED! => {"changed": false, "failed": true, "module_stderr": "Shared connection to 127.0.0.1 closed.\r\n", "module_stdout": "rpmdb: Thread/process 6859/139793686984448 failed: Thread died in Berkeley DB library\r\nerror: db3 error(-30974) from dbenv->failchk: DB_RUNRECOVERY: Fatal error, run database recovery\r\nerror: cannot open Packages index using db3 -  (-30974)\r\nerror: cannot open Packages database in /var/lib/rpm\r\nTraceback (most recent call last):\r\n  File \"/tmp/ansible_OS97Ps/ansible_module_yum.py\", line 1084, in <module>\r\n    main()\r\n  File \"/tmp/ansible_OS97Ps/ansible_module_yum.py\", line 1054, in main\r\n    my.conf\r\n  File \"/usr/lib/python2.6/site-packages/yum/__init__.py\", line 911, in <lambda>\r\n    conf = property(fget=lambda self: self._getConfig(),\r\n  File \"/usr/lib/python2.6/site-packages/yum/__init__.py\", line 300, in _getConfig\r\n    startupconf = config.readStartupConfig(fn, root)\r\n  File \"/usr/lib/python2.6/site-packages/yum/config.py\", line 896, in readStartupConfig\r\n    startupconf.releasever = _getsysver(startupconf.installroot, startupconf.distroverpkg)\r\n  File \"/usr/lib/python2.6/site-packages/yum/config.py\", line 1041, in _getsysver\r\n    raise Errors.YumBaseError(\"Error: \" + str(e))\r\nyum.Errors.YumBaseError: Error: rpmdb open failed\r\n", "msg": "MODULE FAILURE"}
+2017-04-25 04:22:18,038 p=7029 u=root |   [ERROR]: User interrupted execution
+
+2017-04-25 04:22:19,727 p=7276 u=root |  PLAY [Local] *******************************************************************
+2017-04-25 04:22:19,866 p=7276 u=root |  TASK [setup] *******************************************************************
+2017-04-25 04:22:22,656 p=7276 u=root |  ok: [127.0.0.1]
+2017-04-25 04:22:22,675 p=7276 u=root |  ok: [localhost]
+2017-04-25 04:22:22,682 p=7276 u=root |  TASK [apache] ******************************************************************
+2017-04-25 04:22:25,365 p=7276 u=root |  ok: [localhost]
+2017-04-25 04:22:25,370 p=7276 u=root |  ok: [127.0.0.1]
+2017-04-25 04:22:25,376 p=7276 u=root |  PLAY RECAP *********************************************************************
+2017-04-25 04:22:25,377 p=7276 u=root |  127.0.0.1                  : ok=2    changed=0    unreachable=0    failed=0   
+2017-04-25 04:22:25,377 p=7276 u=root |  localhost                  : ok=2    changed=0    unreachable=0    failed=0   
+2017-04-25 04:26:36,282 p=7534 u=root |  ERROR! Syntax Error while loading YAML.
+
+
+The error appears to have been in '/etc/ansible/update.yml': line 6, column 10, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+    -name: update
+      yum:
+         ^ here
+
+2017-04-25 04:27:33,205 p=7541 u=root |  ERROR! Syntax Error while loading YAML.
+
+
+The error appears to have been in '/etc/ansible/update.yml': line 6, column 10, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+    -name: update packets
+      yum:
+         ^ here
+
+2017-04-25 04:27:57,082 p=7548 u=root |  ERROR! Syntax Error while loading YAML.
+
+
+The error appears to have been in '/etc/ansible/update.yml': line 6, column 9, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+    -name: update packets
+     yum:
+        ^ here
+
+2017-04-25 04:29:48,866 p=7557 u=root |  ERROR! Syntax Error while loading YAML.
+
+
+The error appears to have been in '/etc/ansible/update.yml': line 6, column 9, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+    -name: update packets
+     yum:
+        ^ here
+
+2017-04-25 04:34:34,402 p=7569 u=root |  ERROR! Syntax Error while loading YAML.
+
+
+The error appears to have been in '/etc/ansible/update.yml': line 6, column 6, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+    - name: update packets
+     yum:
+     ^ here
+
+2017-04-25 04:35:41,671 p=7576 u=root |  PLAY [Local] *******************************************************************
+2017-04-25 04:35:41,773 p=7576 u=root |  TASK [setup] *******************************************************************
+2017-04-25 04:35:45,236 p=7576 u=root |  ok: [localhost]
+2017-04-25 04:35:45,277 p=7576 u=root |  ok: [127.0.0.1]
+2017-04-25 04:35:45,286 p=7576 u=root |  TASK [update packets] **********************************************************
+2017-04-25 04:35:53,362 p=7576 u=root |  ok: [localhost]
+2017-04-25 04:35:57,970 p=7576 u=root |  ok: [127.0.0.1]
+2017-04-25 04:35:57,979 p=7576 u=root |  PLAY RECAP *********************************************************************
+2017-04-25 04:35:57,980 p=7576 u=root |  127.0.0.1                  : ok=2    changed=0    unreachable=0    failed=0   
+2017-04-25 04:35:57,980 p=7576 u=root |  localhost                  : ok=2    changed=0    unreachable=0    failed=0   

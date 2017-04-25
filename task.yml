@@ -1,0 +1,13 @@
+---
+ - hosts: localhost
+   user: root
+   vars:
+    motd_welkome: 'that is my restricted server'
+   task:  
+   - name: sample motd
+     copy:
+     dest: /etc/motd
+     content: "{{ motd_welkome}}"
+
+
+
